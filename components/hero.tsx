@@ -16,8 +16,8 @@ export default function Hero() {
         </p>
         <p className="md:text-4xl text-3xl animate-[sections_1s_2s_both]">
           {" "}
-          <span className="text-primaryColor">Front End Developer</span>,
-          Vanilla Javascript Enthusiast, and Writer.
+          <span className="text-primaryColor">Front End Developer</span> With
+          Backend Skills.
         </p>
       </div>
       <div className="flex gap-5">

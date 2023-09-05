@@ -46,8 +46,11 @@ const contents = {
     "Ethereum-cryptography Library",
   ],
   links: [
-    { href: "ibrahimayuba.com", label: "View Live Site" },
-    { href: "github.com", label: "View Github Repo" },
+    { href: "https://uduscare-frontend.vercel.app/", label: "View Live Site" },
+    {
+      href: "https://github.com/woodmark-dev/uduscare-frontend",
+      label: "View Github Repo",
+    },
   ],
   lessonsLearned:
     "This project has significantly improved my ability to comprehend and apply documentation. The various obstacles encountered during the development process have enhanced my cognitive and creative coding skills. Moreover, I have gained valuable experience working with Next.js and Nest.js, which are exceptional tools for building scalable and maintainable full-stack web applications.",

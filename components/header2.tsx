@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Header2() {
@@ -8,7 +9,12 @@ export default function Header2() {
           href="/"
           className="btn btn-ghost normal-case text-2xl font-extrabold"
         >
-          DARI
+          <Image
+            width={120}
+            height={120}
+            src="/portfolio-logo.svg"
+            alt="portfolio logo"
+          />
         </Link>
       </div>
     </div>

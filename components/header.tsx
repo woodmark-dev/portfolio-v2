@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { HiMenuAlt4 } from "react-icons/hi";
+
 export default function Header() {
   return (
     <div className="navbar flex justify-between bg-backgroundColor text-textColor">
@@ -8,7 +10,12 @@ export default function Header() {
           href="/"
           className="btn btn-ghost normal-case text-2xl font-extrabold"
         >
-          DARI
+          <Image
+            src="/portfolio-logo.svg"
+            width={120}
+            height={120}
+            alt="portfolio logo"
+          />
         </Link>
       </div>
       <div className="dropdown dropdown-left lg:hidden">

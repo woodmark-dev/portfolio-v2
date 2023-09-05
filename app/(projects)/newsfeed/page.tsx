@@ -38,8 +38,14 @@ const contents = {
   ],
   stack: ["Next", "Nest", "Tailwind", "TypeScript", "Prisma"],
   links: [
-    { href: "ibrahimayuba.com", label: "View Live Site" },
-    { href: "github.com", label: "View Github Repo" },
+    {
+      href: "https://news-feed-brhrh7ffp-woodmark-dev.vercel.app/",
+      label: "View Live Site",
+    },
+    {
+      href: "https://github.com/woodmark-dev/news-feed",
+      label: "View Github Repo",
+    },
   ],
   lessonsLearned:
     "Throughout this project, I deepened my understanding of Next.js and Nest.js. I gained valuable insights into implementing infinite scrolling from scratch, as well as utilizing existing libraries for the same purpose. Furthermore, I have become well-versed in the implementation of image uploads.",
