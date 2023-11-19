@@ -21,9 +21,18 @@ export default function Hero() {
         </p>
       </div>
       <div className="flex gap-5">
-        <AiFillGithub className="w-8 h-8 animate-[icons_1s_2.5s_both]" />
-        <AiFillLinkedin className="w-8 h-8 animate-[icons_1s_3s_both]" />
-        <AiFillTwitterCircle className="w-8 h-8 animate-[icons_1s_3.5s_both]" />
+        <a href="https://github.com/woodmark-dev" target="_blank">
+          <AiFillGithub className="w-8 h-8 animate-[icons_1s_2.5s_both]" />
+        </a>
+        <a href="https://www.linkedin.com/in/ibrahimayubacodes" target="_blank">
+          <AiFillLinkedin className="w-8 h-8 animate-[icons_1s_3s_both]" />
+        </a>
+        <a
+          href="https://x.com/ibroto2?t=PTm0ArCn9HJbDFTbg4QQQQ&s=09"
+          target="_blank"
+        >
+          <AiFillTwitterCircle className="w-8 h-8 animate-[icons_1s_3.5s_both]" />
+        </a>
       </div>
     </div>
   );
